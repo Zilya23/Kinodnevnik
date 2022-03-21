@@ -33,25 +33,25 @@
         <ScrollViewer Grid.Row="1" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="7">
             
         </ScrollViewer>
-        <Image Source="/img/poster.jpg" Grid.Column="0" Grid.Row="2" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="1" Grid.Row="2" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="2" Grid.Row="2" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="3" Grid.Row="2" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="4" Grid.Row="2" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="5" Grid.Row="2" Width="90"/>
+        <Image Source="/img/poster.jpg" Grid.Column="0" Grid.Row="2" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="1" Grid.Row="2" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="2" Grid.Row="2" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="3" Grid.Row="2" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="4" Grid.Row="2" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="5" Grid.Row="2" Width="90" MouseDown="Image_MouseDown"/>
 
-        <Image Source="/img/poster.jpg" Grid.Column="0" Grid.Row="1" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="1" Grid.Row="1" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="2" Grid.Row="1" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="3" Grid.Row="1" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="4" Grid.Row="1" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="5" Grid.Row="1" Width="90"/>
-        
-        <Image Source="/img/poster.jpg" Grid.Column="0" Grid.Row="3" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="1" Grid.Row="3" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="2" Grid.Row="3" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="3" Grid.Row="3" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="4" Grid.Row="3" Width="90"/>
-        <Image Source="/img/poster.jpg" Grid.Column="5" Grid.Row="3" Width="90"/>
+        <Image Source="/img/poster.jpg" Grid.Column="0" Grid.Row="1" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="1" Grid.Row="1" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="2" Grid.Row="1" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="3" Grid.Row="1" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="4" Grid.Row="1" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="5" Grid.Row="1" Width="90" MouseDown="Image_MouseDown"/>
+
+        <Image Source="/img/poster.jpg" Grid.Column="0" Grid.Row="3" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="1" Grid.Row="3" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="2" Grid.Row="3" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="3" Grid.Row="3" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="4" Grid.Row="3" Width="90" MouseDown="Image_MouseDown"/>
+        <Image Source="/img/poster.jpg" Grid.Column="5" Grid.Row="3" Width="90" MouseDown="Image_MouseDown"/>
     </Grid>
 </Page>

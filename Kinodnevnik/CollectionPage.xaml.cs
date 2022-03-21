@@ -34,5 +34,11 @@ namespace Kinodnevnik
         {
             NavigationService.Navigate(new DiaryPage());
         }
+
+        private void btn_Add_Click(object sender, RoutedEventArgs e)
+        {
+            AddCollectionWindow addColl = new AddCollectionWindow();
+            addColl.Show();
+        }
     }
 }

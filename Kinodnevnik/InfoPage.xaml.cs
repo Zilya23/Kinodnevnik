@@ -16,28 +16,23 @@ using System.Windows.Shapes;
 namespace Kinodnevnik
 {
     /// <summary>
-    /// Логика взаимодействия для MainPage.xaml
+    /// Логика взаимодействия для InfoPage.xaml
     /// </summary>
-    public partial class MainPage : Page
+    public partial class InfoPage : Page
     {
-        public MainPage()
+        public InfoPage()
         {
             InitializeComponent();
         }
 
-        private void btn_Collect_Click(object sender, RoutedEventArgs e)
+        private void btn_Back_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new CollectionPage());
+            NavigationService.GoBack();
         }
 
-        private void btn_Diary_Click(object sender, RoutedEventArgs e)
+        private void btn_Add_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new DiaryPage());
-        }
-
-        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            NavigationService.Navigate(new InfoPage());
+            NavigationService.Navigate(new AddInCollectionPage());
         }
     }
 }

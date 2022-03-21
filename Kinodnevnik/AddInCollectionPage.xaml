@@ -1,4 +1,4 @@
-﻿<Page x:Class="Kinodnevnik.CollectionPage"
+﻿<Page x:Class="Kinodnevnik.AddInCollectionPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Kinodnevnik"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="CollectionPage">
+      Title="AddInCollectionPage">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -25,10 +25,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Button x:Name="btn_User" Content="Пользователь" Grid.Column="0" Grid.Row="0"/>
-        <Button x:Name="btn_Main" Content="Интересное" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4" Click="btn_Main_Click"/>
-        <Button x:Name="btn_Collect" Content="Коллекции" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="4"/>
-        <Button x:Name="btn_Diary" Content="Дневник" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="4" Click="btn_Diary_Click"/>
+        <Button x:Name="btn_Back" Content="Назад" Grid.Column="0" Grid.Row="0" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btn_Back_Click"/>
         <Button x:Name="btn_Add" Content="+" FontSize="20" Grid.Column="6" Grid.Row="0" Width="50" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Click="btn_Add_Click"/>
 
         <Button x:Name="btn_Collection1" Content="Коллекция1" Grid.Column="0" Grid.ColumnSpan="7" Grid.Row="1" Height="50"/>
